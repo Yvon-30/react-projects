@@ -10,7 +10,7 @@ import WeatherApp from "./pages/WeatherApp";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-projects">
       <Navbar />
       <main className="min-h-screen">
         <Routes>
