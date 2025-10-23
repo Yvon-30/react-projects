@@ -21,16 +21,28 @@ export default function Home() {
       description: "Une application météo simple et claire.",
       link: "/weather",
     },
+    { 
+      title: "Chat App", 
+      emoji: "💬", 
+      description: "Messagerie en temps réel", 
+      link: "/chat" 
+    },
+    { 
+      title: "E-commerce", 
+      emoji: "🛒", 
+      description: "Catalogue et panier simplifié", 
+      link: "/products" 
+    },
+    { 
+      title: "Music Player", 
+      emoji: "🎵", 
+      description: "Lecteur audio interactif", 
+      link: "/music" 
+    }
   ];
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-indigo-100 to-purple-200 text-gray-800">
-      {/* Navbar */}
-      {/*<header className="bg-white/40 backdrop-blur-md shadow-sm py-4 sticky top-0 z-50 border-b border-white/30">
-        <h1 className="text-3xl font-extrabold text-center text-blue-700 tracking-wide">
-          🚀 Mes Projets React
-        </h1>
-      </header>*/}
 
       {/* Section d’accueil */}
       <section className="text-center mt-10 mb-8 px-4">
